@@ -25,9 +25,10 @@
 
                 <!-- Auth Buttons -->
                 <div class="flex space-x-2 sm:space-x-4 mt-2 sm:mt-0">
-                    <button class="bg-transparent border border-white text-white px-4 sm:px-6 py-1 sm:py-2 rounded hover:bg-white hover:text-blue-700 transition-all duration-200 text-sm sm:text-base">
+                    <!-- Tombol LOG IN diubah menjadi link aktif -->
+                    <a href="{{ route('login') }}" class="bg-transparent border border-white text-white px-4 sm:px-6 py-1 sm:py-2 rounded hover:bg-white hover:text-blue-700 transition-all duration-200 text-sm sm:text-base">
                         LOG IN
-                    </button>
+                    </a>
 
                     <a href="{{ route('signup') }}" class="text-white hover:text-blue-200 px-3 sm:px-4 py-1 sm:py-2 transition-colors duration-200 font-semibold text-sm sm:text-base">
                         SIGN UP
